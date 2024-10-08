@@ -13,13 +13,6 @@
 
 #include "libft.h"
 
-static int	ft_atoi_overflow(int sign)
-{
-	if (sign < 0)
-		return (0);
-	return (-1);
-}
-
 /**
  * La  fonction ft_atoi() convertit le début de la chaîne pointée 
  * par nptr en entier de type int. 
@@ -30,25 +23,29 @@ static int	ft_atoi_overflow(int sign)
 
 int	ft_atoi(const char *nptr)
 {
-	unsigned long	nbr;
-	int				sign;
+	int	i;
+	int	sign;
+	int	result;
 
-	while (ft_isspace(*nptr))
-		nptr++;
+	i = 0;
 	sign = 1;
-	if (*nptr == '+' || *nptr == '-')
+	result = 0;
+	while (nptr[i] == 32 || (nptr[i] >= '\t' && nptr[i] <= '\r'))
 	{
-		if (*nptr == '-')
-			sign = -1;
-		nptr++;
+		i++;
 	}
-	nbr = 0;
-	while (ft_isdigit(*nptr))
+	if (nptr[i] == '-' || nptr[i] == '+')
 	{
-		if ((nbr * 10 + (*nptr - '0')) / 10 != nbr)
-			return (ft_atoi_overflow(sign));
-		nbr = nbr * 10 + (*nptr - 48);
-		nptr++;
+		if (nptr[i] == '-')
+		{
+			sign *= -1;
+		}
+		i++;
 	}
-	return (sign * nbr);
+	while (nptr[i] >= '0' && nptr[i] <= '9')
+	{
+		result = result * 10 + (nptr[i] - '0');
+		i++;
+	}
+	return (sign * result);
 }
