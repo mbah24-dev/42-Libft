@@ -4,48 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>42-Libft</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        h1 {
-            color: #007bff;
-        }
-        h2 {
-            color: #0056b3;
-            margin-top: 30px;
-        }
-        h3 {
-            color: #0056b3;
-            margin-top: 20px;
-        }
-        pre {
-            background-color: #e9ecef;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            background-color: #e9ecef;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: monospace;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+   
 </head>
 <body>
 
