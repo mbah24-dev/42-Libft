@@ -6,7 +6,7 @@
 /*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 17:35:22 by mbah              #+#    #+#             */
-/*   Updated: 2024/10/08 17:56:27 by mbah             ###   ########.fr       */
+/*   Updated: 2024/10/08 18:20:23 by mbah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ static int	ft_atoi_overflow(int sign)
 		return (0);
 	return (-1);
 }
-
 
 /**
  * La  fonction ft_atoi() convertit le début de la chaîne pointée 
