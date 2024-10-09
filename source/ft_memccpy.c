@@ -6,7 +6,7 @@
 /*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 00:40:07 by mbah              #+#    #+#             */
-/*   Updated: 2024/10/09 00:41:33 by mbah             ###   ########.fr       */
+/*   Updated: 2024/10/09 10:56:04 by mbah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
  * @brief Copie des octets de la zone mémoire `src` vers la zone mémoire `dest`
  *        jusqu'à ce que le caractère `c` soit trouvé, ou jusqu'à avoir copié
  *        `n` octets.
- *
  * La fonction `ft_memccpy` copie des octets de la zone mémoire `src` vers `dest`.
  * La copie s'arrête lorsque le caractère `c` (interprété comme un `unsigned char`)
  * est trouvé dans `src`, ou après avoir copié `n` octets. Si le caractère `c`

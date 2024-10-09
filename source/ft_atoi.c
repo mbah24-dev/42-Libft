@@ -6,7 +6,7 @@
 /*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 17:35:22 by mbah              #+#    #+#             */
-/*   Updated: 2024/10/08 18:20:23 by mbah             ###   ########.fr       */
+/*   Updated: 2024/10/09 10:59:12 by mbah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,19 +30,15 @@ int	ft_atoi(const char *nptr)
 	i = 0;
 	sign = 1;
 	result = 0;
-	while (nptr[i] == 32 || (nptr[i] >= '\t' && nptr[i] <= '\r'))
-	{
+	while (ft_isspace(nptr[i]))
 		i++;
-	}
 	if (nptr[i] == '-' || nptr[i] == '+')
 	{
 		if (nptr[i] == '-')
-		{
 			sign *= -1;
-		}
 		i++;
 	}
-	while (nptr[i] >= '0' && nptr[i] <= '9')
+	while (ft_isdigit(nptr[i]))
 	{
 		result = result * 10 + (nptr[i] - '0');
 		i++;

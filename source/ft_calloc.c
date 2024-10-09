@@ -6,7 +6,7 @@
 /*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 17:56:48 by mbah              #+#    #+#             */
-/*   Updated: 2024/10/08 17:59:22 by mbah             ###   ########.fr       */
+/*   Updated: 2024/10/09 10:28:52 by mbah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@
  */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
-	void	*array;
+	void	*arr;
 
-	array = malloc(nmemb * size);
-	if (!array)
+	arr = malloc(nmemb * size);
+	if (!arr)
 		return (NULL);
-	ft_bzero(array, nmemb * size);
-	return (array);
+	ft_bzero(arr, nmemb * size);
+	return (arr);
 }
