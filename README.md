@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://github.com/mbah24-dev/mbah24-dev/blob/main/42_badges/libfte.png" alt="libft 42 project badge"/>
 </p>
-<p>Bienvenue dans <strong>42-Libft</strong> ! 🎉 Mon premier projet à l'École 42 🎓, où je recrée une <strong>librairie standard en C</strong>. 🔧</p>
+<p>Bienvenue dans <strong>libft</strong> ! 🎉 Mon premier projet à l'École 42 🎓, où je recrée une <strong>librairie standard en C</strong>. 🔧</p>
 
 <h2>📝 Description du projet</h2>
 
@@ -22,8 +22,8 @@
     <li><strong>Fonctions de gestion des chaînes de caractères</strong> :
         <ul>
             <li><code>ft_strlen</code> : Calcule la longueur d'une chaîne de caractères.</li>
-            <li><code>ft_strcpy</code> : Copie une chaîne de caractères.</li>
-            <li><code>ft_strcmp</code> : Compare deux chaînes de caractères.</li>
+            <li><code>ft_strlcpy</code> : Copie une chaîne de caractères.</li>
+            <li><code>ft_strncmp</code> : Compare deux chaînes de caractères.</li>
         </ul>
     </li>
     <li><strong>Fonctions de gestion de la mémoire</strong> :
@@ -74,6 +74,7 @@ make re
 
 <pre><code>#include "libft.h"
 
+```c
 int main(void)
 {
     char *str = "Hello, 42!";
@@ -81,6 +82,7 @@ int main(void)
     printf("La longueur de la chaîne est : %d\n", len);
     return (0);
 }
+```
 </code></pre>
 
 <h2>🚀 Objectif du projet</h2>
