@@ -72,9 +72,9 @@ make re
 
 <h3>Exemple d’utilisation</h3>
 
-<pre><code>#include "libft.h"
-
 ```c
+#include "libft.h"
+
 int main(void)
 {
     char *str = "Hello, 42!";
@@ -82,7 +82,7 @@ int main(void)
     printf("La longueur de la chaîne est : %d\n", len);
     return (0);
 }
-```
+
 </code></pre>
 
 <h2>🚀 Objectif du projet</h2>
