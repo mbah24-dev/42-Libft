@@ -9,7 +9,7 @@
 
 <h1>📚 42-Libft</h1>
 <p align="center">
-  <img src="https://github.com/mbah24-dev/mbah24-dev/blob/main/42_badges/ft_printfe.png" alt="ft_printf 42 project badge"/>
+  <img src="https://github.com/mbah24-dev/mbah24-dev/blob/main/42_badges/libfte.png" alt="libft 42 project badge"/>
 </p>
 <p>Bienvenue dans <strong>42-Libft</strong> ! 🎉 Mon premier projet à l'École 42 🎓, où je recrée une <strong>librairie standard en C</strong>. 🔧</p>
 
