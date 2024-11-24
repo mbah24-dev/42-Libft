@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>📚 42-Libft</h1>
+<h1>📚 Libft</h1>
 <p align="center">
   <img src="https://github.com/mbah24-dev/mbah24-dev/blob/main/42_badges/libfte.png" alt="libft 42 project badge"/>
 </p>
@@ -82,7 +82,7 @@ int main(void)
     printf("La longueur de la chaîne est : %d\n", len);
     return (0);
 }
-
+```
 </code></pre>
 
 <h2>🚀 Objectif du projet</h2>
